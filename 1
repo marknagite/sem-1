@@ -1,0 +1,10 @@
+#include <iostream>
+int main() {
+	int a;
+	std::cout << "enter l in metres ";
+	std::cin >> a;
+	int b = a / 100;
+	int c = a % 100;
+	std::cout << b << "m " << c << "cm ";
+	return 0;
+}
