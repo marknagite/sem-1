@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "RU");
+    for (int i = 32; i < 127; i++) {
+        char c = static_cast<char>(i);
+        cout << i << " " << c << endl;
+    }
+
+    return 0;
+}
