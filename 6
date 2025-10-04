@@ -1,0 +1,19 @@
+#include <iostream>;
+int main() {
+	setlocale(LC_ALL, "RU");
+	int a;
+	std::cin >> a;
+
+	if (a % 15 == 0) {
+		std::cout << "Число делится на 15 ";
+	}
+
+	if (a % 5 == 0) {
+		std::cout << "Число делится на 5 ";
+	}
+
+	if (a % 3 == 0) {
+		std::cout << "Число делится на 3 ";
+	}
+	return 0;
+}
